@@ -1,0 +1,33 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body { background-color: #e5e5e5; }
+
+body div.container {
+	background-color: #ffffff;	
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+}
+
+.row { margin: 2em; }
+
+.footer {
+  font-size: 80%;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
