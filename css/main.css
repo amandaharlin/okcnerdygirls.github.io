@@ -15,11 +15,13 @@ html, body {
 	background-color: #e5e5e5;
 }
 
-body div.container {
-	background-color: #ffffff;	
+body div.page {
+	background-color: #ffffff;
+	box-shadow: 0 0 5px #d0d0d0;
 	margin-left:auto;
 	margin-right:auto;
-	width: 80%;
+	max-width: 1044px;
+	width: 96%;
 }
 
 .row { margin: 15px; }
@@ -31,4 +33,17 @@ body div.container {
   color: #ffffff;
   border-top: 4px solid #eee;
   overflow: hidden;
+}
+
+/* Only one copyright element per page is permitted */
+#page-copyright { 
+	background-color: #000000;
+	color: #ffffff;
+	font-family: "Fjalla One", Verdana, Geneva, sans-serif;
+	font-size: 70%;
+	font-weight: bold;
+	line-height: 1.5em;
+	padding: 1.2em 0;
+	text-align: center;
+	text-transform: uppercase;
 }
