@@ -21,7 +21,27 @@
 				<div class="row" style="margin-left: 0px;">
 					<a href="/"><img src="/img/okcnerdygirls_logo.png" alt="{{ site.name }}" /></a>
 				</div>
-				
+				<div class="row" style="float: right;">
+					<ul class="nav nav-pills">
+						{% if page.url == "/index.html" %}
+						<li class="active"><a href="/">Home</a></li>
+						{% else %}
+						<li><a href="/">Home</a></li>
+						{% endif %}
+						
+						{% if page.url == "/blog/index.html" %}
+						<li class="active"><a href="/blog">Blog</a></li>
+						{% else %}
+						<li><a href="/blog">Blog</a></li>
+						{% endif %}
+						
+						{% if page.url == "/faq/index.html" %}
+						<li class="active"><a href="/faq">FAQS</a></li>
+						{% else %}
+						<li><a href="/faq">FAQS</a></li>
+						{% endif %}
+					</ul>
+				</div>
 				<div class="row">{{ content }}</div>
 			</div>
 			<div id="page-footer" class="container">
